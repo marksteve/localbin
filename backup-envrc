@@ -1,0 +1,3 @@
+#!/bin/bash
+set -ex
+find $HOME -iname .envrc | tar czf $HOME/.secrets/envrc.tar.gz --files-from -           
